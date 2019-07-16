@@ -1,0 +1,62 @@
+1. Stage‐1 code submission is due tomorrow i.e. on March 5, 2019 (Tuesday) during 4:30 p.m. to 6:30 p.m.
+
+2. Confirm your group number with the instructor's list if needed. Meet me during 11:00 a.m. ‐12:00 noon tomorrow (March 5, 2019, Tuesday) and verify your group number. A submission with wrong group number will not be considered for evaluation.
+
+3. Collect the coding details proforma during 11:00 a.m. ‐12:00 noon tomorrow (March 5, Tuesday) from room number 6121‐Z.
+
+4. Any one member of the team can collect the above mentioned form, but it will not be given to the member of the other team for your group.
+
+5. All members of the team will be required to be present at the time of code submission.
+
+6. Create a folder and name it as your group number (Group_01, Group_12, ....etc.). This folder must contain the following files
+
+    lexerDef.h
+    lexer.c
+    lexer.h
+    parserDef.h
+    parser.h
+    parser.c
+    driver.c
+    makefile
+    testcases (should be available in your group folder directly)
+    any other (grammar file, token file and so on which you might have used)
+
+7. Group folder should not have any subfolder in it.
+
+8. Do not include *.o and stage1exe in the above folder for uploading.
+
+9. Each testcase file must have a prefix testcase followed by the number, followed by the extension 'txt', e.g. testcase5.txt, testcase2.txt, etc.
+
+10. Submit only those testcases with which your code works well. I will be using my testcases as well for evaluation, but asking you to submit the testcases gives me a scope to verify your lexer and parser with your testcases.
+
+11. Ensure that the makefile is named as makefile (and no other name is used for it). Check the file dependencies to ensure correct working of the makefile.
+
+12. Ensure that the driver supports the five options for execution as were earlier mentioned.
+
+13. Verify that each file (except any input file you use in your code) has in its first 5 lines, your group number, Ids and names of  all team members in comment. Do not forget to comment these. Unnamed files will not be evaluated.
+
+14. Ensure the compatibility of your code with the GCC specifications given earlier.
+
+15. Refresh the course webpage (Nalanda) to verify that you have not missed out any updates. Go through all details and ensure that nothing is left out which you would have preferred to incorporate in your code.
+
+16. Compress the group folder using zip ( of type Group_#.zip, where # represents your group number ) to upload. (Other formats such as tar, gz, and rar etc. will  not be accepted)
+
+17. Fill up the given proforma with necessary details.
+
+18. Ensure that the code you are intending to submit is not plagiarized. (Refer course handout for more details)
+
+19. Any one of the team members' Nalanda account should be used for submission. A duplicate submission may carry a penalty in terms of deduction of marks.
+
+20. If you choose to avail the life line, you can submit the code on March 6, 2019 (Wednesday) during 4:30 p.m to 5:30 p.m. without any penalty.(Refer course handout for more details)
+
+21. Submit your file Group_#.zip (# represents your group number) through (http://nalanda.bitspilani.ac.in/). The link will be made available as per the specified date and time. Avoid last minute submission. If you find any problem in uploading the files through the given link, please do not panic and do not send any code through email. Code sent through email will not be accepted . In case of any problem in uploading your file, you can contact me at room number 6121‐Z.
+
+22. Bring the coding details proforma duly filled in to my chamber after submitting the code. All members of the team should sign the declaration in front of me.
+
+23. Submission will be complete after successfully uploading the zip file and submitting the coding details. Any code submission after 6:30 p.m. and proforma submission after 7:00 p.m. tomorrow will be considered late.
+
+24. Those who are availing lifeline, should submit the coding details proforma immediately after the code submission on 6th (while it should be collected by you from me tomorrow itself). If there is any delay, the submission will not be considered for evaluation.
+
+25. Teams not following the submission guidelines, will be penalized appropriately.
+
+26. In case of doubts, please contact through email.

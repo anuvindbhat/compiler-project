@@ -1,0 +1,35 @@
+
+_readMarks input parameter list[int b7]
+output parameter list [ record #marks b3c2];
+	type int : c4 : global;
+	type int : c2;
+	read(b3c2.maths);
+	read(b3c2.physics);
+	read(b3c2.chemistry);
+	return [b3c2];
+end
+
+_main
+	record #marks
+		type real : maths;
+		type real: physics;
+		type real: chemistry;
+	endrecord;
+	type int :b3;
+	type int : b2;
+	type int : c2;
+	type int : d2;
+	type int : c5 : global;
+	type record #marks : b5c6;
+	read(b2);
+	[b5c6] <--- call _readMarks with parameters [b2];
+	c2<--- 20;
+	read(d2);
+
+	b3 <--- b2 + c2 + d2;
+	write(b3);
+	return;
+end
+
+
+

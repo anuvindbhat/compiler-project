@@ -1,0 +1,17 @@
+Grammar stuff
+
+(alterations she made)
+33. <allVar>===><var>| TK_ID TK_DOT TK_FIELDID
+44. <var>===> TK_ID | TK_NUM | TK_RNUM
+41. <all>===> TK_ID | TK_NUM| TK_RNUM | TK_ID <temp>
+43. <booleanExpression>===>TK_OP <booleanExpression> TK_CL <logicalOp> TK_OP <booleanExpression> TK_CL| <var> <relationalOp> <var>|TK_NOT TK_OP <booleanExpression>TK_CL
+
+
+(how to make LL(1))
+33. <allVar>===>TK_NUM|TK_RNUM|TK_ID<allVarTemp>
+(new rule) <allVarTemp>===>TK_DOT TK_FIELDID|eps
+44. <var>===> TK_ID|TK_NUM|TK_RNUM
+41. <all>===> TK_ID<temp>|TK_NUM|TK_RNUM
+43. <booleanExpression>===>TK_OP <booleanExpression> TK_CL <logicalOp> TK_OP <booleanExpression> TK_CL| <var> <relationalOp> <var>|TK_NOT TK_OP <booleanExpression>TK_CL
+
+

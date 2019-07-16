@@ -1,0 +1,12 @@
+| $ ? %unknown symbols
+!a %case 14
+&a %15
+&&a %15
+@a
+@@a
+=a
+<-a
+<--a
+_2
+b2ccc34
+&&

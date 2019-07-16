@@ -1,0 +1,90 @@
+The semantic analysis test cases are attached.
+
+The expected output is as follows
+
+Test Case 1 :File testcase1.txt
+
+ERRORS to be reported
+
+lines 11‐14: None of the variables participating in the iterations of the while loop gets updated.
+
+line 15 : The type <int> of variable <b5b567> returned does not match with the type <real> of the formal output parameter <d3>
+
+line 21 : Variable b5b67 being a global variable, cannot be declared more than once.
+
+line 22 : variable b3 is not declared
+
+Symbol Table Display
+
+Lexeme    type        scope              offset
+
+d5cc34       int        _sumN                0
+
+d3              real      _sumN                2
+
+b5b567      int           global               ‐
+
+b3              int         _sumN              6
+
+c3bd          real       _sumN              8
+
+c4bd56      real       _main               0
+
+c2              int         _main               4
+
+ 
+
+Test Case 2 : File testcase2.txt
+
+ERRORS to be reported
+
+Line 11 : The function _readMarks() is undefined.
+
+Line 12 : The function _readMarks() is undefined.
+
+Line 40 : The identifier <b5> is declared more than once.
+
+Line 51 : The number of input parametrs at function call <_addRecords> is incorrect.
+
+Symbol Table Display
+
+Lexeme  type                           scope                   offset
+
+c3b5        real x real x real    _addRecords           0
+
+c3b6        real x real x real    _addRecords          12
+
+b3c45      real x real x real    _addRecords          24
+
+c4            int                           _addRecords         36
+
+b7            int                           _readMarks           0
+
+b3c2        real x real x real    _readMarks            2
+
+d4            int                           _main                    0
+
+b5            int                           _main                    2
+
+d5cb34567 int                        _main                    4
+
+b5c6        real x real x real    _main                     16
+
+ 
+
+Test Case 3 : testcase3.txt
+
+ERRORS to be reported
+
+Line 11 : Variable <d5b> is a global variable and cannot be declared again.
+
+Line 16 : Type Mismatch <specify lexemes and corresponding types>
+
+Line 31 : Type Mismatch <specify lexemes and corresponding types>
+
+Line 33: The variable <c2> is undeclared
+
+Symbol Table Display: Work it out in the similar format as illustrated above.
+
+Note: Above three test cases should not have any lexical or syntax errors. Any discrepancy in the test cases should be reported immediately.
+
